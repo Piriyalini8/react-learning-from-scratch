@@ -4,7 +4,12 @@ import React, { Component } from "react";
 // try some changes
 class Welcome extends Component{
     render(){
-       return <h1>Welcome Priya from Class component</h1>
+       return (
+        <div>
+        <h1>Welcome {this.props.name} a.k.a {this.props.heroName}</h1>
+        <p>{this.props.children}</p>
+       </div>
+       )
     }
 }
 
