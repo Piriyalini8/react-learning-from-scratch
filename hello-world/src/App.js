@@ -8,20 +8,20 @@ import Welcome from './components/Welcome';
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      {/* <Counter/> */}
       {/* <Message/> */}
       {/* <Greet name='Priya' heroName='Wonder Woman'>
         <p>This is Children paragraph</p>
       </Greet>
       <Greet name='Kishan' heroName='SpiderMan'>
         <button>Action</button>
-      </Greet>
+      </Greet> */}
       <Greet name='Pavi' heroName='Bat man'/>
-      <Welcome name='Priya' heroName='Wonder Woman'>
+      {/* <Welcome name='Priya' heroName='Wonder Woman'>
         <p>This is Children paragraph</p>
-      </Welcome>
+      </Welcome> */}
       <Welcome name='Kishan' heroName='SpiderMan'/>
-      <Welcome name='Pavi' heroName='Bat man'/> */}
+      {/* <Welcome name='Pavi' heroName='Bat man'/> */}
       {/* <Hello/> */}
     </div>
   );
