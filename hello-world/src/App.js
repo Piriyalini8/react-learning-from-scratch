@@ -1,4 +1,5 @@
 import './App.css';
+import Counter from './components/Counter';
 import Greet from './components/Greet';
 import Hello from './components/Hello';
 import Message from './components/Message';
@@ -7,7 +8,8 @@ import Welcome from './components/Welcome';
 function App() {
   return (
     <div className="App">
-      <Message/>
+      <Counter/>
+      {/* <Message/> */}
       {/* <Greet name='Priya' heroName='Wonder Woman'>
         <p>This is Children paragraph</p>
       </Greet>
