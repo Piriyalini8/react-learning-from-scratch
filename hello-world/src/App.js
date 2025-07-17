@@ -1,6 +1,7 @@
 import './App.css';
 import ClassClick from './components/ClassClick';
 import Counter from './components/Counter';
+import EventBind from './components/EventBind';
 import FunctionClick from './components/FunctionClick';
 import Greet from './components/Greet';
 import Hello from './components/Hello';
@@ -10,8 +11,9 @@ import Welcome from './components/Welcome';
 function App() {
   return (
     <div className="App">
-      <ClassClick/>
-      <FunctionClick/>
+      <EventBind/>
+      {/* <ClassClick/>
+      <FunctionClick/> */}
       {/* <Counter/> */}
       {/* <Message/> */}
       {/* <Greet name='Priya' heroName='Wonder Woman'>
